@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">    
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>IBA Website Chatbot Sandbox | Testing & Development</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <!-- Main Title -->
+    <h1 class="main-title">IBA Website Chatbot Sandbox | Testing & Development</h1>
+    
+    <!-- Image -->
+    <img src="IBA-CDC.jpg" alt="IBA Chatbot Image" style="display: block; margin: 0 auto; width: 90%; height: auto;">
+
+    <!-- Header Section -->
+    <header>
+        <h1 class="text-center text-3xl font-bold underline">Welcome to the IBA Chatbot Testing Sandbox</h1>
+        <p class="text-center">Testing and refining the interactive chatbot for our official university website.</p>
+    </header>
+
+    <!-- Project Overview Section -->
+    <section>
+        <h2 class="text-2xl font-bold underline">Project Overview</h2>
+        <p>This sandbox environment is designed for the development and testing of the chatbot for IBA Websites. Here, we aim to provide an interactive virtual assistant that helps students, staff, and visitors easily navigate through the website and find important information. The chatbot will assist with inquiries such as admission details, rules and policies, program information, campus events, and much more.</p>
+    </section>
+
+    <!-- Chatbot Features Section -->
+    <section>
+        <h2 class="text-2xl font-bold underline">Chatbot Features</h2>
+        <ul class="list-disc pl-5">
+            <li>Quick answers to frequently asked questions</li>
+            <li>Easy navigation to academic and administrative pages</li>
+            <li>Escalating queries to respective departments and officials</li>
+            <li>Enhanced user experience for prospective students and visitors</li>
+        </ul>
+    </section>
+
+    <!-- Footer Section -->
+    <footer class="text-gray-100 text-xs body-font">
+        <p>Developed by Hassan Hadi Khan for MSDS FYP Fall 2024</p>
+        <p>This image is sourced from the IBA official website and is used here solely for testing and educational purposes in a sandbox environment. No commercial use intended.</p>
+    </footer>
+
+    <!-- Chatbot iframe -->
+    <iframe id="chatbot-iframe" 
+        src="https://copilotstudio.microsoft.com/environments/Default-fee3b916-01c1-4987-a646-e193432b9eaa/bots/cr836_copilotForIbaWebsites/webchat?__version__=2" 
+        frameborder="0"></iframe>
+
+    <!-- Chatbot toggle button -->
+    <button id="chatbot-toggle" onclick="toggleChatbot()">&#129302;</button>
+
+    <!-- External Script -->
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,56 @@
+/* Global body styles */
+body {
+    background-color: rgba(2, 17, 58, 0.755);
+    color: white;
+}
+
+/* Positioning the iframe at the bottom right */
+#chatbot-iframe {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 350px;
+    height: 70px;
+    z-index: 1000;
+    border-radius: 10px;
+    transition: height 0.3s ease-in-out;
+}
+
+/* Toggle button for the chatbot */
+#chatbot-toggle {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: rgb(46, 148, 174);
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 50%;
+    cursor: pointer;
+    z-index: 1000;
+    font-size: 20px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+
+/* Custom styles for header and section spacing */
+header, section {
+    margin-bottom: 30px;
+}
+
+h1, h2 {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+/* Custom font size for the title */
+.main-title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+/* Custom styles for bullet points */
+ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
